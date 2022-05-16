@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+
+ .container{
+  margin : 2vw;
+ }
+
+ .blockquote {
+  padding: 1vw;
+  width: 40vw;
+  background-color: rgb(255, 247, 240);
+  border-left: 3px solid gray;
+  border-radius: 0 10px 10px 0;
+  box-shadow: rgba(128, 128, 128, 0.2) 5px 2px 15px;
+ }
+
+ .blockquote-footer{
+  padding-top: 1vw;
+  font-style: italic;
+ }
+
+ .blockquote p {
+   font-size: small;
+   color: gray;
+ }

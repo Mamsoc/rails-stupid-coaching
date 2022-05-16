@@ -1,0 +1,15 @@
+<div class="container">
+  <h1>Stupid Coaching</h1>
+  <blockquote class="blockquote">
+    <p>Question :</p>
+    <%= @input %>
+    <footer class="blockquote-footer"> You
+  </blockquote>
+  <blockquote class="blockquote">
+    <p>Réponse :</p>
+    <%= @answer %>
+    <footer class="blockquote-footer"> Your coach
+  </blockquote>
+  <p></p>
+  <%= link_to "Ask new question", ask_path, class: "btn btn-primary"%>
+</div>
